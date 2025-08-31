@@ -14,4 +14,4 @@ while i < N:
     i += 1
 
 pi_approximate = 4 * n / N
-print("Approximation of pi:", pi_approximate)
+print("Approximation of pi: ", pi_approximate)
