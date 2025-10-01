@@ -56,7 +56,7 @@ def heli_airports(country_code):
     return
 
 connection = mysql.connector.connect(
-host='127.0.0.1',
+    host='127.0.0.1',
     port='3306',
     database='new_flight',
     user='root',
@@ -69,6 +69,7 @@ country_code = str(input("enter country code : "))
 country_name(country_code)
 small_airports(country_code),large_airports(country_code),medium_airports(country_code),
 heli_airports(country_code)
+
 
 
 
